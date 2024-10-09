@@ -39,7 +39,8 @@ GET `/logout`
 GET, PATCH, DELETE `/profile`
 GET `/profile/edit`
 #### Post CRUD
-GET `/@<owner>[#<tag>]*`
+<!--GET `/@<owner>[#<tag>]*`-->
+GET `/post/<locator>`
 GET, PATCH, DELETE `/post/<post_id>`
 GET, POST `/post/new`
 #### Tag CRUD
